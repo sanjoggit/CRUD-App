@@ -1,0 +1,117 @@
+*{
+  margin: 0;
+}
+h4{
+  text-align: center;
+}
+h3{
+  color: white;
+  margin-left: 10px;
+}
+.hb-menu{
+  display: none;
+}
+.nav{
+  background-color: #292F33;
+  height: 50px;
+
+}
+.nav-ul{
+  list-style: none;
+  height: 50px;
+}
+.nav-li{
+  padding-right: 8px;
+  color:  #CCD6DD;
+  text-decoration: none;
+}
+.nav-li:hover{
+  color: white;
+}
+.navbar-brand{
+  color: #7CBB00;
+}
+.navbar-brand:hover{
+  color: #7CBB00;
+}
+.active{
+  color: white;
+}
+
+.delete-button{
+  cursor: pointer;
+  padding: 0 5px;
+  background-color: red;
+  border-radius: 5px;
+  color: white;
+}
+.edit-button{
+  cursor: pointer;
+  padding: 0 1px;
+  margin-right: 5px;
+  background-color: #4285F4;
+  border-radius: 5px;
+  color: black;
+}
+.user-list:nth-child(odd){
+  background-color: #80ced6 !important;
+  color: black;
+}
+.user-list:nth-child(even){
+  background-color: #00b8e6 !important;
+  color: black;
+}
+.home-background img{
+  width: 100%;
+  height: 100vh;
+}
+.form{
+  flex-grow: 1;
+}
+.edit-input{
+  margin-right: 5px;
+}
+.edit-decide{
+  margin-right: 5px;
+}
+
+@media screen and (max-width: 1024px){
+
+    .hb-menu{
+      display: inline-block;
+      font-size: 30px;
+      /* margin-right: 10px; */
+      color: white;
+      cursor: pointer;
+    }
+
+    .nav{
+      justify-content: space-between;
+    }
+    .ul-div{
+      visibility: visible;
+    }
+    .nav-ul{
+      height: 150px;
+      flex-direction: column;
+    }
+
+    .nav-li{
+      color: white;
+    }
+    .ul-div{
+      flex-direction: column;
+      padding: 10px;
+      background-color: #595959;
+      opacity: .9;
+      margin-top: 5px;
+      z-index: 1;
+      border: 1px solid black;
+      border-bottom-right-radius: 3px;
+      border-bottom-left-radius: 3px;
+    }
+    .san{
+      margin-right: -46px;
+    }
+
+}
